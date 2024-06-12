@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<head>
+  <meta lang="pt-BR">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home</title>
+  <link
+    href="./propriedades/css/layout_base.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link
+    rel="shortcut icon"
+    href="./propriedades/images/favicon.ico"
+    type="image/x-icon"
+  />
+  <script src="./js/geral.js"></script>
+  <script src="./js/login.js"></script>
+</head>
+
+
+  <body>
+    <header>
+      
+      <button id="openmenu">&#9776;</button>
+        
+      <a href="./index.html" id="logo"
+      ><img id="logoimg"
+
+          src="./propriedades/images/logo_syst.png"
+          
+      /></a>
+
+      <nav id="menu">
+        <button id="closemenu">X</button>
+        <a href="#"></a>
+        <a href="#"></a> 
+
+        <a href="https://www.cps.sp.gov.br/" target="_blank">
+          <img 
+          src="./miscelaneo/cps_logo.jpg"
+          style="height: 40px;"/>
+        </a>
+
+        <a href="http://www.fatecjacarei.com.br/" target="_blank">
+          <img 
+          src="./miscelaneo/fatec_logo.png"
+          style="height: 40px;"/>
+        </a>
+
+      </nav>
+
+    </header>
+
+
+    <main>
+      <h1 class="titulo">BEM VINDO</h1>
+
+      <div id="texto_login">
+        Nós damos as boas vindas ao site da equipe HardStop onde ensinaremos <br>
+        para os trabalhadores, esquecidos e curiosos o processo de <br>
+        gestão ágil conhecido como SCRUM
+      </div>
+
+      
+      <div id="login_field">
+        
+        <fieldset id="login_fieldset">
+          <legend id="logleg">LOGIN</legend>
+          <div>
+            <input
+              id="input-mail"
+              type="email"
+              placeholder="Informe seu e-mail"
+            />
+          </div>
+          <div id="okdiv">
+            <button id="okleg"
+            onclick="logar()">
+            OK
+          </button>
+          </div>
+        </fieldset>
+
+        <div id="cadt">
+          <p id="cadtx">
+            ou 
+            <a href="./pages/cadastro.html">
+            cadastre-se</a>
+          </p>
+        </div>
+      </div>
+
+  
+    </main>
+
+
+    <aside>
+    
+      <div id="hslogo">
+        <a href="https://github.com/frevisto/hardstop" target="_blank">
+          <img id="logohardstop" src="./propriedades/images/LOGO-HS-GROUP.png"/>
+        </a>
+      </div>
+    </aside>
+  </body>
+  <script src="./js/interaçao.js"></script>
+</html>

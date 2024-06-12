@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta lang="pt-BR"/>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link
+    href="../propriedades/css/layout_base.css"
+    rel="stylesheet"
+    type="text/css"
+    rel="shortcut icon"
+    href="../propriedades/images/favicon.ico"
+    type="image/x-icon"
+    />
+    <script src="../js/geral.js"></script>
+    <script src="../js/cadastro.js"></script>
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <header>
+    
+      <button id="openmenu">&#9776;</button>
+      <a href="../index.html" id="logo"
+        ><img id="logoimg"
+          src="../propriedades/images/logo_syst.png"
+      /></a>
+
+      <nav id="menu">
+        <button id="closemenu">X</button>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#" target="_blank">
+        <img  src="../miscelaneo/cps_logo.jpg" style="height: 40px;"/></a>
+        <a href="#" target="_blank"> <img  src="../miscelaneo/fatec_logo.png" style="height: 40px;"/></a>
+      </nav>
+    </header>
+    <main>
+        <div class="maindiv2">
+            <div class="titulo">
+                <h1 >Cadastro de Novo Usuário</h1>
+            </div>
+
+            <div class="cdst_inputs">
+                    <div class="laabel">
+                        <label for="user_name" >NOME: </label><br>
+                        <input id="user_name" type="text" 
+                        placeholder="Informe seu nome completo"
+                        >
+                    </div>    
+                    <div class="laabel">
+                        <label for="user_address">E-MAIL:</label><br>
+                        <input id="user_address" type="email" 
+                            placeholder="Informe seu e-mail">
+                    </div>
+                    <div class="buttonal">
+                        <button  class="botao_feedback"  onclick="salvarUsuario()">Enviar</button>
+                    </div>
+            </div>
+        
+        </div>
+    </main>
+    <aside>
+      <div id="hslogo">
+        <a href="https://github.com/frevisto/hardstop" target="_blank">
+          <img id="logohardstop" src="../propriedades/images/LOGO-HS-GROUP.png" />
+        </a>
+      </div>
+    </aside>
+  </body>
+</html>
